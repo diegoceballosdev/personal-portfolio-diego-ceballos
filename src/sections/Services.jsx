@@ -116,7 +116,7 @@ export const Services = () => {
                 {/* CONTACTO RAPIDO */}
                 <div className="text-center mt-12 animate-fade-in animation-delay-500">
                     <AnimatedBorderButton>
-                        Necesito una wb
+                        Necesito una web
                         <ArrowUpRight className="w-5 h-5" />
                     </AnimatedBorderButton>
                 </div>

@@ -1,32 +1,49 @@
 import { ExperienceItem } from "../components/ExperienceItem";
 
 const EXPERIENCE = [
-    {
-        role: 'Freelance Full Stack Developer',
-        company: 'Proyectos Personales / Clientes',
-        period: '2025 - Presente',
-        desc: 'Desarrollo de landing pages y SPAs enfocados en UI moderna y performance.',
-        stack: ['React', 'Vite', 'TypeScript', 'Tailwind', 'Supabase', 'Zustand', 'TanStack Query', 'Vercel'],
-        tasks: [
-            'Implementación de consumo y sincronización de datos con Supabase y TanStack Query.',
-            'Gestión de estado global con Zustand y navegación optimizada.',
-            'Despliegues continuos y actualizaciones en Vercel.'
-        ]
-    },
-    {
-        role: 'Sistema de ventas E-commerce',
-        company: 'Proyecto Final de Carrera',
-        period: '2024 - 2025',
-        desc: 'Desarrollo integral de una plataforma e-commerce full stack.',
-        stack: ['HTML', 'Tailwind', 'JS', 'Alpine.js', 'PHP', 'Laravel', 'Livewire', 'MySQL'],
-        tasks: [
-            'Panel de administración para gestión de productos, órdenes y envíos.',
-            'Autenticación robusta con roles y permisos.',
-            'Reportes exportables (PDF/Excel) y notificaciones por email.',
-            'Modelado de BD con migraciones y lógica de pagos.'
-        ]
-    }
+  {
+    role: "Freelance Full Stack Developer",
+    company: "Proyectos Personales / Clientes",
+    period: "2025 - Presente",
+    desc: "Desarrollo de landing pages, SPAs y tiendas online con foco en UI moderna, performance y buenas prácticas de producción.",
+    stack: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Zustand",
+      "TanStack Query",
+      "React Router",
+      "Zod",
+      "React Hook Form",
+      "Vercel",
+    ],
+    tasks: [
+      "Construí landing pages y SPAs 100% responsive, con componentes reutilizables y micro-interacciones/animaciones orientadas a UX.",
+      "Implementé consumo y sincronización de datos con Supabase + TanStack Query (fetching, caché, paginación, invalidación y estados de carga/error).",
+      "Gestioné estado global con Zustand para carrito y features de UI, optimizando la experiencia de navegación.",
+      "Desarrollé flujos de autenticación y protección de rutas (login/register, roles y guards) para dashboards y secciones privadas.",
+      "Desplegué y mantuve proyectos en Vercel con iteraciones rápidas, correcciones y mejoras continuas.",
+    ],
+  },
+  {
+    role: "Full Stack Developer",
+    company: "Proyecto Final de Carrera — Sistema de Ventas E-commerce",
+    period: "2024 - 2025",
+    desc: "Desarrollo end-to-end de un e-commerce full stack con tienda pública, panel de administración y reportes para gestión.",
+    stack: ["HTML", "Tailwind CSS", "JavaScript", "Alpine.js", "PHP", "Laravel", "Livewire", "MySQL"],
+    tasks: [
+      "Desarrollé la tienda pública responsive: home, catálogo, filtros avanzados, detalle de producto, carrito y flujo de compra.",
+      "Implementé un panel de administración para gestión de productos, órdenes de compra y envíos.",
+      "Integré autenticación (registro/login) y gestión de usuarios con roles y permisos para control de acceso.",
+      "Generé reportes exportables a PDF y Excel para análisis y control administrativo.",
+      "Implementé notificaciones por email y lógica del flujo de compra/procesamiento de pagos.",
+      "Modelé y administré la base de datos en MySQL usando migraciones, seeders y factories.",
+    ],
+  },
 ];
+
 
 export const Experience = () => {
     
