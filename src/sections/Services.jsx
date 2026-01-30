@@ -63,11 +63,11 @@ export const Services = () => {
 
             {/* RESPLANDOR DE FONDO centrado*/}
             <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-            
+
             <div className="container mx-auto px-6 relative z-10">
 
                 {/* ENCABEZADO */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-14">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
                         Lo que ofrezco
                     </span>
@@ -115,10 +115,12 @@ export const Services = () => {
 
                 {/* CONTACTO RAPIDO */}
                 <div className="text-center mt-12 animate-fade-in animation-delay-500">
-                    <AnimatedBorderButton>
-                        Necesito una web
-                        <ArrowUpRight className="w-5 h-5" />
-                    </AnimatedBorderButton>
+                    <a href="#contact">
+                        <AnimatedBorderButton>
+                            Necesito una web
+                            <ArrowUpRight className="w-5 h-5" />
+                        </AnimatedBorderButton>
+                    </a>
                 </div>
 
             </div>

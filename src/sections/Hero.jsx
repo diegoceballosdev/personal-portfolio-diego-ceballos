@@ -66,7 +66,7 @@ export const Hero = () => {
             </div>
 
             {/* CONTENIDO */}
-            <div className="container mx-auto px-4 pt-32 pb-20 relative z-10">
+            <div className="container mx-auto px-4 pt-16 sm:pt-32 pb-20 relative z-10">
                 <div className="grid lg:grid-cols-2 items-center">
 
                     {/* COLUMNA IZQUIERDA */}
@@ -157,7 +157,7 @@ export const Hero = () => {
                 </div>
 
                 {/* SKILLS */}
-                <div className="mt-20 animate-fade-in animation-delay-600">
+                <div className="mt-6 animate-fade-in animation-delay-600">
                     <p className="text-sm text-muted-foreground mb-6 text-center">Tecnologias</p>
                     <div className="relative overflow-hidden">
                         <div className="flex animate-marquee">

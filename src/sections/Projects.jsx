@@ -8,7 +8,7 @@ const projects = [
     description:
       "Plataforma e-commerce completa con tienda pública y dashboard admin. Catálogo, carrito y checkout con Niubiz + Mercado Pago; gestión de usuarios, productos, órdenes y envíos; banners, FAQ y datos de contacto. Seguridad con autenticación, roles/permisos, reportes PDF/Excel, charts y notificaciones por email.",
     image: "/projects/tienda-laravel.jpg",
-    tags: ["PHP, Laravel", "Livewire", "TailwindCSS", "MySQL", "Mercado Pago"],
+    tags: ["PHP", "Laravel", "Livewire", "Alpine.js", "TailwindCSS", "MySQL", "Mercado Pago"],
     link: null,
     github: "https://github.com/diegoceballosdev/Ecommerce-Kong-Laravel",
   },
@@ -17,7 +17,7 @@ const projects = [
     description:
       "SPA de e-commerce para celulares con home y catálogo, carrito y flujo de compra con pago por depósito bancario. Incluye dashboard para administración de productos y órdenes, autenticación (login/register) y protección de rutas por roles. Manejo de estado y datos optimizado con Zustand + TanStack Query.",
     image: "/projects/celltech.png",
-    tags: ["React", "TypeScript", "TailwindCSS", "Supabase", "Zustand, TanStack Query, Zod, Vercel"],
+    tags: ["React", "TypeScript", "TailwindCSS", "Supabase", "Zustand", "TanStack Query", "Zod", "Vercel"],
     link: "https://celltech-snowy.vercel.app/",
     github: "https://github.com/diegoceballosdev/Tienda-Online-React-Vite-Supabase",
   },
@@ -62,7 +62,7 @@ export const Projects = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 {/* ENCABEZADO */}
-                <div className="text-center mx-auto max-w-3xl mb-16">
+                <div className="text-center mx-auto max-w-3xl mb-14">
 
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
                         Trabajo destacado
@@ -162,12 +162,12 @@ export const Projects = () => {
                 </div>
 
                 {/* VER TODOS LOS PROYECTOS */}
-                <div className="text-center mt-12 animate-fade-in animation-delay-500">
+                {/* <div className="text-center mt-12 animate-fade-in animation-delay-500">
                     <AnimatedBorderButton>
                         Ver todos los proyectos
                         <ArrowUpRight className="w-5 h-5" />
                     </AnimatedBorderButton>
-                </div>
+                </div> */}
             </div>
         </section>
     );
