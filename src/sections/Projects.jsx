@@ -48,6 +48,15 @@ const projects = [
     link: null,
     github: null,
   },
+  {
+    title: "Crypto Dev",
+    description:
+      "Una aplicación web moderna para el seguimiento de criptomonedas en tiempo real. Este proyecto permite visualizar, filtrar y analizar el mercado cripto utilizando datos reales, con una interfaz limpia y responsiva.",
+    image: "/projects/cryptodev.png",
+    tags: ["React", "JavaScript", "CSS", "Vercel","UI/UX", "API Fetch"],
+    link: "https://cryptodevsalta.vercel.app/",
+    github: "https://github.com/diegoceballosdev/crypto-dev-react-real-time",
+  },
 ];
 
 
